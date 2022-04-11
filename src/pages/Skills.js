@@ -16,17 +16,20 @@ const Skills = () => {
     const Languages = [
     {
         name: "Javascript",
-        icon: <DiJsBadge/>,
-        level: "90%"
+        icon: <DiJsBadge color={'yellow'} size={30}/>,
+        level: "90%",
+    
     }, 
     {    name: "HTML5",
-        icon: <DiHtml5/>,
-        level: "90%"
+        icon: <DiHtml5 color={'orange'} size={30}/>,
+        level: "90%",
+      
     }, 
     {    
         name: "CSS3",
-        icon: <DiCss3/>,
-        level: "90%"
+        icon: <DiCss3 color={'#1577b4'} size={30}/>,
+        level: "90%",
+        
     }, 
 
 
@@ -36,24 +39,27 @@ const Skills = () => {
     const Frameworks = [
         {
             name: "Laravel",
-            icon: <DiJsBadge/>,
+            icon: <DiLaravel color={'red'} size={30}/>,
             level: "90%",
-            color: "red"
+            
         }, 
         {    name: "React Js",
-            icon: <DiHtml5/>,
-            level: "90%"
+            icon: <DiReact color={'#5cd0ee'} size={30}/>,
+            level: "90%",
+           
         }, 
         {    
             name: "Node Js",
-            icon: <DiCss3/>,
-            level: "90%"
+            icon: <DiNodejsSmall color={'#398037'} size={30}/>,
+            level: "90%",
+           
         }, 
     
         {    
             name: "Saas",
-            icon: <DiCss3/>,
-            level: "90%"
+            icon: <DiSass color={'#c26191'} size={30}/>,
+            level: "90%",
+           
         }, 
             
         ]
@@ -61,23 +67,27 @@ const Skills = () => {
         const Tools = [
             {
                 name: "Github",
-                icon: <DiJsBadge/>,
-                level: "90%"
+                icon: <DiGithubBadge color={'white'} size={30}/>,
+                level: "90%",
+                color: ""
             }, 
             {    name: "Vs Code",
-                icon: <DiHtml5/>,
-                level: "90%"
+                icon: <DiVisualstudio color={'#0072cc'} size={30}/>,
+                level: "90%",
+                color: ""
             }, 
             {    
                 name: "MySQL",
-                icon: <DiCss3/>,
-                level: "90%"
+                icon: <DiMysql color={'#e68a10'} size={30}/>,
+                level: "90%",
+                color: ""
             }, 
         
             {    
                 name: "jQuery",
-                icon: <DiCss3/>,
-                level: "90%"
+                icon: <DiJqueryLogo color={'white'} size={30}/>,
+                level: "90%",
+                color: ""
             }, 
                 
             ]
@@ -105,14 +115,14 @@ const Skills = () => {
 
       
             const siblings = e.target.parentElement.children;
-            e.target.classList.add('active');
+           
 
             for (let i = 0; i < siblings.length; i++) {
                 if (siblings[i] !== e.target) {
                     siblings[i].classList.remove('active');
                 }
             }
-          
+            e.target.classList.add('active');
            
         }
 
@@ -124,7 +134,7 @@ const Skills = () => {
                 <SkillsTitle/>
           <div class="selections">
               <ul>
-                  <li onClick={(e)=> {
+                  <li className="active" onClick={(e)=> {
                       handleChange('All',e)
                        
                 }}>All</li>

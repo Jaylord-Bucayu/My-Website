@@ -7,6 +7,8 @@ const form = useRef();
 const [alert,setAlert] = useState(false);
 const [sendLoad,setLoading] = useState('SEND');
 
+const [inputs,setInputs] = useState({fname:"",lname:"",email:"",message:""});
+
 const sendEmail = (e) => {
     e.preventDefault();
     setLoading('SENDING....');
@@ -55,6 +57,7 @@ const sendEmail = (e) => {
                  
                 </div>
                 </form>
+                <p><a style={{textDecoration: 'none',color: 'black'}} href="https://github.com/Jaylord-Bucayu/">https://github.com/Jaylord-Bucayu</a></p>
             </div>
 
 
@@ -66,6 +69,12 @@ const sendEmail = (e) => {
                     I love doing projects with people 
 that same interest as mine.  So what are you waiting for let's bring it on ! “ 
                     </p>
+                    <svg width="137" height="11" viewBox="0 0 137 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.5 4.50011C9.5 2.00011 16 -0.999885 23 1.00011C30 3.00011 36 6.5 38 7.5C40 8.5 47.5 12 53.5 7.5C59.5 3 66.5 1.50023 72.5 4.50011C78.5 7.5 76.5 10.5 98.5 10.5C116.1 10.5 131.5 10.5 137 10.5" stroke="black" stroke-width="0.5"/>
+</svg>
+
+
+
             </div>
             </div>
     )
