@@ -18,6 +18,125 @@ const Projects = () => {
     <div className="projects">
     
     
+    <div class="projects-container">
+
+<div class="project-details">
+<svg width="101" height="51" viewBox="0 0 131 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.25" y="0.25" width="130.5" height="70.5" rx="12.75" stroke="black" stroke-width="0.5"/>
+<rect x="5.25" y="6.25" width="120.5" height="59.5" rx="12.75" stroke="black" stroke-width="0.5"/>
+<path d="M19.7173 55V47.7273H24.4474V48.8317H21.0348V50.8061H24.2024V51.9105H21.0348V53.8956H24.4759V55H19.7173ZM31.7681 47.7273V55H30.5962L27.1694 50.0462H27.109V55H25.7915V47.7273H26.9705L30.3938 52.6847H30.4577V47.7273H31.7681ZM32.8841 48.8317V47.7273H38.6866V48.8317H36.4387V55H35.1319V48.8317H32.8841ZM39.8052 55V47.7273H44.5353V48.8317H41.1227V50.8061H44.2903V51.9105H41.1227V53.8956H44.5637V55H39.8052ZM45.8794 55V47.7273H48.6067C49.1654 47.7273 49.6342 47.8243 50.013 48.0185C50.3941 48.2126 50.6818 48.4848 50.8759 48.8352C51.0724 49.1832 51.1706 49.5893 51.1706 50.0533C51.1706 50.5196 51.0712 50.9245 50.8723 51.2678C50.6758 51.6087 50.3858 51.8726 50.0023 52.0597C49.6188 52.2443 49.1477 52.3366 48.589 52.3366H46.6465V51.2429H48.4114C48.7381 51.2429 49.0056 51.1979 49.214 51.108C49.4223 51.0156 49.5762 50.8819 49.6756 50.7067C49.7774 50.5291 49.8283 50.3113 49.8283 50.0533C49.8283 49.7952 49.7774 49.575 49.6756 49.3928C49.5738 49.2081 49.4187 49.0684 49.2104 48.9737C49.0021 48.8767 48.7334 48.8281 48.4043 48.8281H47.1969V55H45.8794ZM49.6365 51.7045L51.437 55H49.9668L48.1983 51.7045H49.6365Z" fill="black"/>
+</svg>
+
+    <h1>Doormate Space Rental </h1>
+    <p>Doormate is a real estate marketplace where anyone can buy and rent a condo unit, hotel, dormitory, building, commercial space, or commercial space.
+   </p>
+   <a className="project-btn"  href="https://doormate.space/" target="_blank">View Project</a>
+</div>
+
+<div class="project-image">
+<svg width="389" height="218" viewBox="0 0 389 218" fill="none">
+
+
+<rect x="39.5" y="0.5" width="310" height="200" rx="4.5" stroke="black"/>
+
+
+<rect x="48.5" y="11.5" width="291" height="181" fill="white" stroke="black"/>
+
+<image x="48.5" y="-1.5" width="291"  height="200" href={process.env.PUBLIC_URL + 'images/projects/projectdorm.png'} />
+
+<path d="M1.5 206C1.58607 206 1.67213 206 1.75817 206M1.75817 206C310.743 205.6 388.333 205.5 388.5 205.5V213L0.5 212.5V206L1.75817 206Z" stroke="black"/>
+<path d="M1 213.5C2.33333 214.833 7.3 217.5 16.5 217.5C25.7 217.5 258.667 217.5 374 217.5C378.167 217.167 386.7 216 387.5 214" stroke="black"/>
+<path d="M167 206.5C170.5 211.5 171 211 172 211.5C172.8 211.9 202.333 211.667 217 211.5C217.5 211.667 218.8 211.5 220 209.5C221.2 207.5 221.833 206 222 205.5H167V206" stroke="black"/>
+<path d="M350.5 192V205.5" stroke="black"/>
+<path d="M39 181V205" stroke="black"/>
+
+
+
+</svg>
+
+</div>
+</div>
+
+
+<div class="projects-container">
+
+<div class="project-details">
+<svg width="101" height="51" viewBox="0 0 131 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.25" y="0.25" width="130.5" height="70.5" rx="12.75" stroke="black" stroke-width="0.5"/>
+<rect x="5.25" y="6.25" width="120.5" height="59.5" rx="12.75" stroke="black" stroke-width="0.5"/>
+<path d="M19.7173 55V47.7273H24.4474V48.8317H21.0348V50.8061H24.2024V51.9105H21.0348V53.8956H24.4759V55H19.7173ZM31.7681 47.7273V55H30.5962L27.1694 50.0462H27.109V55H25.7915V47.7273H26.9705L30.3938 52.6847H30.4577V47.7273H31.7681ZM32.8841 48.8317V47.7273H38.6866V48.8317H36.4387V55H35.1319V48.8317H32.8841ZM39.8052 55V47.7273H44.5353V48.8317H41.1227V50.8061H44.2903V51.9105H41.1227V53.8956H44.5637V55H39.8052ZM45.8794 55V47.7273H48.6067C49.1654 47.7273 49.6342 47.8243 50.013 48.0185C50.3941 48.2126 50.6818 48.4848 50.8759 48.8352C51.0724 49.1832 51.1706 49.5893 51.1706 50.0533C51.1706 50.5196 51.0712 50.9245 50.8723 51.2678C50.6758 51.6087 50.3858 51.8726 50.0023 52.0597C49.6188 52.2443 49.1477 52.3366 48.589 52.3366H46.6465V51.2429H48.4114C48.7381 51.2429 49.0056 51.1979 49.214 51.108C49.4223 51.0156 49.5762 50.8819 49.6756 50.7067C49.7774 50.5291 49.8283 50.3113 49.8283 50.0533C49.8283 49.7952 49.7774 49.575 49.6756 49.3928C49.5738 49.2081 49.4187 49.0684 49.2104 48.9737C49.0021 48.8767 48.7334 48.8281 48.4043 48.8281H47.1969V55H45.8794ZM49.6365 51.7045L51.437 55H49.9668L48.1983 51.7045H49.6365Z" fill="black"/>
+</svg>
+
+    <h1>LegitBaCo </h1>
+    <p>Website to Autenticate your items to have verified ownership.
+   </p>
+   <a className="project-btn"  href="https://www.legitba.co" target="_blank">View Project</a>
+</div>
+
+<div class="project-image">
+<svg width="389" height="218" viewBox="0 0 389 218" fill="none">
+
+
+<rect x="39.5" y="0.5" width="310" height="200" rx="4.5" stroke="black"/>
+
+
+<rect x="48.5" y="11.5" width="291" height="181" fill="white" stroke="black"/>
+
+<image x="48.5" y="-1.5" width="291"  height="200" href={process.env.PUBLIC_URL + 'images/projects/projectlegit.png'} />
+
+<path d="M1.5 206C1.58607 206 1.67213 206 1.75817 206M1.75817 206C310.743 205.6 388.333 205.5 388.5 205.5V213L0.5 212.5V206L1.75817 206Z" stroke="black"/>
+<path d="M1 213.5C2.33333 214.833 7.3 217.5 16.5 217.5C25.7 217.5 258.667 217.5 374 217.5C378.167 217.167 386.7 216 387.5 214" stroke="black"/>
+<path d="M167 206.5C170.5 211.5 171 211 172 211.5C172.8 211.9 202.333 211.667 217 211.5C217.5 211.667 218.8 211.5 220 209.5C221.2 207.5 221.833 206 222 205.5H167V206" stroke="black"/>
+<path d="M350.5 192V205.5" stroke="black"/>
+<path d="M39 181V205" stroke="black"/>
+
+
+
+</svg>
+
+</div>
+</div>
+
+<div class="projects-container">
+
+<div class="project-details">
+<svg width="101" height="51" viewBox="0 0 131 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.25" y="0.25" width="130.5" height="70.5" rx="12.75" stroke="black" stroke-width="0.5"/>
+<rect x="5.25" y="6.25" width="120.5" height="59.5" rx="12.75" stroke="black" stroke-width="0.5"/>
+<path d="M19.7173 55V47.7273H24.4474V48.8317H21.0348V50.8061H24.2024V51.9105H21.0348V53.8956H24.4759V55H19.7173ZM31.7681 47.7273V55H30.5962L27.1694 50.0462H27.109V55H25.7915V47.7273H26.9705L30.3938 52.6847H30.4577V47.7273H31.7681ZM32.8841 48.8317V47.7273H38.6866V48.8317H36.4387V55H35.1319V48.8317H32.8841ZM39.8052 55V47.7273H44.5353V48.8317H41.1227V50.8061H44.2903V51.9105H41.1227V53.8956H44.5637V55H39.8052ZM45.8794 55V47.7273H48.6067C49.1654 47.7273 49.6342 47.8243 50.013 48.0185C50.3941 48.2126 50.6818 48.4848 50.8759 48.8352C51.0724 49.1832 51.1706 49.5893 51.1706 50.0533C51.1706 50.5196 51.0712 50.9245 50.8723 51.2678C50.6758 51.6087 50.3858 51.8726 50.0023 52.0597C49.6188 52.2443 49.1477 52.3366 48.589 52.3366H46.6465V51.2429H48.4114C48.7381 51.2429 49.0056 51.1979 49.214 51.108C49.4223 51.0156 49.5762 50.8819 49.6756 50.7067C49.7774 50.5291 49.8283 50.3113 49.8283 50.0533C49.8283 49.7952 49.7774 49.575 49.6756 49.3928C49.5738 49.2081 49.4187 49.0684 49.2104 48.9737C49.0021 48.8767 48.7334 48.8281 48.4043 48.8281H47.1969V55H45.8794ZM49.6365 51.7045L51.437 55H49.9668L48.1983 51.7045H49.6365Z" fill="black"/>
+</svg>
+
+    <h1>Creant: Creative Farming  </h1>
+    <p>Partnership with Creant.asia the project aims to invovate a advance farming techiniques with the use of technologies.
+   </p>
+   <a className="project-btn"  href="https://creative-farming.creant.asia/" target="_blank">View Project</a>
+</div>
+
+<div class="project-image">
+<svg width="389" height="218" viewBox="0 0 389 218" fill="none">
+
+
+<rect x="39.5" y="0.5" width="310" height="200" rx="4.5" stroke="black"/>
+
+
+<rect x="48.5" y="11.5" width="291" height="181" fill="white" stroke="black"/>
+
+<image x="48.5" y="-1.5" width="291"  height="200" href={process.env.PUBLIC_URL + 'images/projects/projectfarm.png'} />
+
+<path d="M1.5 206C1.58607 206 1.67213 206 1.75817 206M1.75817 206C310.743 205.6 388.333 205.5 388.5 205.5V213L0.5 212.5V206L1.75817 206Z" stroke="black"/>
+<path d="M1 213.5C2.33333 214.833 7.3 217.5 16.5 217.5C25.7 217.5 258.667 217.5 374 217.5C378.167 217.167 386.7 216 387.5 214" stroke="black"/>
+<path d="M167 206.5C170.5 211.5 171 211 172 211.5C172.8 211.9 202.333 211.667 217 211.5C217.5 211.667 218.8 211.5 220 209.5C221.2 207.5 221.833 206 222 205.5H167V206" stroke="black"/>
+<path d="M350.5 192V205.5" stroke="black"/>
+<path d="M39 181V205" stroke="black"/>
+
+
+
+</svg>
+
+</div>
+</div>
+
+
       <div class="projects-container">
 
           <div class="project-details">
@@ -32,7 +151,7 @@ const Projects = () => {
               <h1>City Online Market</h1>
               <p>A e-commerce website for buying essentials good within the City. This is a Capstone Project and also participated in a Start-up competition.</p> 
           
-             <button className="project-btn">View Project</button>
+             {/* <button className="project-btn">View Project</button> */}
         </div>
 
         <div class="project-image">
@@ -44,7 +163,7 @@ const Projects = () => {
 
 <rect x="48.5" y="11.5" width="291" height="181" fill="white" stroke="black"/>
 
-<image x="48.5" y="-1.5" width="291"  height="200" href={process.env.PUBLIC_URL + 'images/projects/projectcovid.jpg'}/>
+<image x="48.5" y="-1.5" width="291"  height="200" href={process.env.PUBLIC_URL + 'images/projects/projectcom.jpg'}/>
 
 <path d="M1.5 206C1.58607 206 1.67213 206 1.75817 206M1.75817 206C310.743 205.6 388.333 205.5 388.5 205.5V213L0.5 212.5V206L1.75817 206Z" stroke="black"/>
 <path d="M1 213.5C2.33333 214.833 7.3 217.5 16.5 217.5C25.7 217.5 258.667 217.5 374 217.5C378.167 217.167 386.7 216 387.5 214" stroke="black"/>
@@ -71,7 +190,7 @@ const Projects = () => {
               <h1>Tracking The Crown</h1>
               <p>This Website is to track the covid in every country. This Web-application using API from the Api.covid19api. 
              </p>
-             <button className="project-btn">View Project</button>
+             {/* <button className="project-btn">View Project</button> */}
         </div>
 
         <div class="project-image">
@@ -83,7 +202,7 @@ const Projects = () => {
       
       <rect x="48.5" y="11.5" width="291" height="181" fill="white" stroke="black"/>
       
-      <image x="48.5" y="-1.5" width="291"  height="200" href={process.env.PUBLIC_URL + 'images/projects/projectcom.jpg'} />
+      <image x="48.5" y="-1.5" width="291"  height="200" href={process.env.PUBLIC_URL + 'images/projects/projectcovid.jpg'}  />
       
       <path d="M1.5 206C1.58607 206 1.67213 206 1.75817 206M1.75817 206C310.743 205.6 388.333 205.5 388.5 205.5V213L0.5 212.5V206L1.75817 206Z" stroke="black"/>
       <path d="M1 213.5C2.33333 214.833 7.3 217.5 16.5 217.5C25.7 217.5 258.667 217.5 374 217.5C378.167 217.167 386.7 216 387.5 214" stroke="black"/>
@@ -99,44 +218,7 @@ const Projects = () => {
       </div>
    
   
-      <div class="projects-container">
-
-          <div class="project-details">
-          <svg width="101" height="51" viewBox="0 0 131 71" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.25" y="0.25" width="130.5" height="70.5" rx="12.75" stroke="black" stroke-width="0.5"/>
-<rect x="5.25" y="6.25" width="120.5" height="59.5" rx="12.75" stroke="black" stroke-width="0.5"/>
-<path d="M19.7173 55V47.7273H24.4474V48.8317H21.0348V50.8061H24.2024V51.9105H21.0348V53.8956H24.4759V55H19.7173ZM31.7681 47.7273V55H30.5962L27.1694 50.0462H27.109V55H25.7915V47.7273H26.9705L30.3938 52.6847H30.4577V47.7273H31.7681ZM32.8841 48.8317V47.7273H38.6866V48.8317H36.4387V55H35.1319V48.8317H32.8841ZM39.8052 55V47.7273H44.5353V48.8317H41.1227V50.8061H44.2903V51.9105H41.1227V53.8956H44.5637V55H39.8052ZM45.8794 55V47.7273H48.6067C49.1654 47.7273 49.6342 47.8243 50.013 48.0185C50.3941 48.2126 50.6818 48.4848 50.8759 48.8352C51.0724 49.1832 51.1706 49.5893 51.1706 50.0533C51.1706 50.5196 51.0712 50.9245 50.8723 51.2678C50.6758 51.6087 50.3858 51.8726 50.0023 52.0597C49.6188 52.2443 49.1477 52.3366 48.589 52.3366H46.6465V51.2429H48.4114C48.7381 51.2429 49.0056 51.1979 49.214 51.108C49.4223 51.0156 49.5762 50.8819 49.6756 50.7067C49.7774 50.5291 49.8283 50.3113 49.8283 50.0533C49.8283 49.7952 49.7774 49.575 49.6756 49.3928C49.5738 49.2081 49.4187 49.0684 49.2104 48.9737C49.0021 48.8767 48.7334 48.8281 48.4043 48.8281H47.1969V55H45.8794ZM49.6365 51.7045L51.437 55H49.9668L48.1983 51.7045H49.6365Z" fill="black"/>
-</svg>
-
-              <h1>KeyCode Generator </h1>
-              <p>This is a simple keycode generator. It is a simple project to detect key code in any key pressed. 
-             </p>
-             <button className="project-btn">View Project</button>
-        </div>
-
-        <div class="project-image">
-        <svg width="389" height="218" viewBox="0 0 389 218" fill="none">
-      
-     
-      <rect x="39.5" y="0.5" width="310" height="200" rx="4.5" stroke="black"/>
-      
-      
-      <rect x="48.5" y="11.5" width="291" height="181" fill="white" stroke="black"/>
-      
-      <image x="48.5" y="-1.5" width="291"  height="200" href={process.env.PUBLIC_URL + 'images/projects/projectkey.jpg'} />
-      
-      <path d="M1.5 206C1.58607 206 1.67213 206 1.75817 206M1.75817 206C310.743 205.6 388.333 205.5 388.5 205.5V213L0.5 212.5V206L1.75817 206Z" stroke="black"/>
-      <path d="M1 213.5C2.33333 214.833 7.3 217.5 16.5 217.5C25.7 217.5 258.667 217.5 374 217.5C378.167 217.167 386.7 216 387.5 214" stroke="black"/>
-      <path d="M167 206.5C170.5 211.5 171 211 172 211.5C172.8 211.9 202.333 211.667 217 211.5C217.5 211.667 218.8 211.5 220 209.5C221.2 207.5 221.833 206 222 205.5H167V206" stroke="black"/>
-      <path d="M350.5 192V205.5" stroke="black"/>
-      <path d="M39 181V205" stroke="black"/>
-      
-      
-      
-      </svg>
-       
-        </div>
-      </div>
+    
 
 
 
