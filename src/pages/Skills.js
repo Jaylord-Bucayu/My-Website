@@ -1,7 +1,8 @@
 import { DiLaravel,DiReact,DiNodejsSmall ,DiJsBadge,DiCss3,DiHtml5
 ,DiGithubBadge,DiSass,DiVisualstudio,
-DiJqueryLogo,
+DiJqueryLogo,DiFirebase,
 DiMysql} from "react-icons/di";
+import { FaVuejs, FaSlack } from "react-icons/fa";
 
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
@@ -48,6 +49,12 @@ const Skills = () => {
             level: "90%",
            
         }, 
+
+        {    name: "Vue Js",
+            icon: <FaVuejs color={'#218759'} size={30}/>,
+            level: "90%",
+       
+         }, 
         {    
             name: "Node Js",
             icon: <DiNodejsSmall color={'#398037'} size={30}/>,
@@ -64,6 +71,21 @@ const Skills = () => {
             
         ]
 
+        const Integrations = [
+            {
+                name: "Slack API",
+                icon: <FaSlack color={'white'} size={30}/>,
+                level: "90%",
+                color: ""
+            },
+            {
+                name: "Firebase",
+                icon: <DiFirebase color={'yellow'} size={30}/>,
+                level: "90%",
+                color: ""
+            }
+
+        ]
         const Tools = [
             {
                 name: "Github",
@@ -92,7 +114,7 @@ const Skills = () => {
                 
             ]
 
-            const All = [...Languages, ...Frameworks, ...Tools]
+            const All = [...Languages, ...Frameworks, ...Tools,...Integrations]
 
             const [selected, setSelected] = useState('All');
 
@@ -141,6 +163,7 @@ const Skills = () => {
                   <li onClick={(e)=> handleChange('Frameworks',e)}>Frameworks</li>
                   <li onClick={(e)=> handleChange('languages',e)}>Languages</li>
                   <li onClick={(e)=> handleChange('tools',e)}>Tools</li>
+                  <li onClick={(e)=> handleChange('integrations',e)}>Integrations</li>
               </ul>
 
           </div>
@@ -149,7 +172,7 @@ const Skills = () => {
                 <div className="skills-details">
                     <div className="skills-details-items">
 
-                        {render(`${selected}` === 'All' ? All : `${selected}` === 'Frameworks' ? Frameworks : `${selected}` === 'languages' ? Languages : `${selected}` === 'tools' ? Tools : null)}
+                        {render(`${selected}` === 'All' ? All : `${selected}` === 'Frameworks' ? Frameworks : `${selected}` === 'languages' ? Languages : `${selected}` === 'tools' ? Tools :  `${selected}` === 'integrations' ? Integrations : null)}
                      
                        
               
